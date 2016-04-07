@@ -1,0 +1,38 @@
+[{
+	"id": "332e4467.01221c",
+	"type": "ibmiot in",
+	"z": "94c7174c.c79b28",
+	"authentication": "boundService",
+	"apiKey": "",
+	"inputType": "evt",
+	"deviceId": "",
+	"applicationId": "",
+	"deviceType": "+",
+	"eventType": "+",
+	"commandType": "",
+	"format": "json",
+	"name": "IBM IoT",
+	"service": "registered",
+	"allDevices": true,
+	"allApplications": "",
+	"allDeviceTypes": true,
+	"allEvents": true,
+	"allCommands": "",
+	"allFormats": true,
+	"x": 97.22222518920898,
+	"y": 90.00000190734863,
+	"wires": [
+		["e26b45ab.0caed8"]
+	]
+}, {
+	"id": "e26b45ab.0caed8",
+	"type": "debug",
+	"z": "94c7174c.c79b28",
+	"name": "",
+	"active": true,
+	"console": "false",
+	"complete": "false",
+	"x": 310.55555725097656,
+	"y": 89.99999713897705,
+	"wires": []
+}]
